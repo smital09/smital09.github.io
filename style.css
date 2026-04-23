@@ -1,15 +1,32 @@
-
 body {
   font-family: "Latin Modern Roman", "Times New Roman", serif;
   line-height: 1.6;
   color: #222;
+  background: #fff;
+  margin: 0;
+  padding: 0;
   text-align: left;
 }
 
 .container {
-  max-width: 800px;
-  margin: 40px 0 40px 40px; /* pushes it slightly from the left edge */
-  padding: 0 20px;
+  width: 800px;
+  max-width: 100%;
+  margin: 40px 0 40px 40px;
+  padding: 0 20px 0 0;
+  text-align: left;
+}
+
+header,
+section,
+div,
+p,
+ol,
+ul,
+li,
+h1,
+h2,
+h3 {
+  text-align: left;
 }
 
 h1 {
@@ -30,13 +47,21 @@ h3 {
   display: flex;
   gap: 24px;
   align-items: flex-start;
+  justify-content: flex-start;
   flex-wrap: wrap;
+  text-align: left;
 }
 
 .profile-pic {
   width: 180px;
   height: auto;
   border-radius: 4px;
+  display: block;
+  margin: 0;
+}
+
+.contact {
+  text-align: left;
 }
 
 .contact p {
@@ -52,10 +77,8 @@ a:hover {
   text-decoration: underline;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 22px;
-}
-
-h1, h2, h3, p {
-  text-align: left;
+  margin-left: 0;
 }
