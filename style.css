@@ -8,9 +8,6 @@ body {
 
 .container {
   max-width: 800px;
-  padding: 0 20px;
-  text-align: left;    /* ensures text is left-aligned */
-  max-width: 800px;
   margin: 40px 0 40px 40px; /* pushes it slightly from the left edge */
   padding: 0 20px;
 }
@@ -57,4 +54,8 @@ a:hover {
 
 ol, ul {
   padding-left: 22px;
+}
+
+h1, h2, h3, p {
+  text-align: left;
 }
